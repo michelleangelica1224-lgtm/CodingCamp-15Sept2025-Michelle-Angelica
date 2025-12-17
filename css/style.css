@@ -15,7 +15,7 @@
     top: 0;
     z-index: 999;
 } 
-.navbar-container {
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
@@ -26,12 +26,10 @@
     padding: 0 50px;
 }  
 
-#navbar-logo {
-    color: #f0dddd;
-    justify-self: start;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
+#navbar__logo {
+    background-color: #9f7b7b;
+    background-size: 100%; 
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
