@@ -1,35 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Idyllic Website</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-   <nav class="navbar">
-    <div class="navbar__container">
-        <a href="/" id="navbar__logo">Idyllic</a>
-        <div class="navbar__togglemenu" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/ourprofile.html" class="navbar__links">Our Profile</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/portfolio.html" class="navbar__links">Portfolio</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/messageus.html" class="navbar__links">Message Us</a>
-            </li>
-        </ul>
-    </div>
-   </nav>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Michelle's Portofolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header Content -->
+    <header></header>
+    <nav class="navbar">
+      <!-- Logo Icon -->
+      <div class="logo"></div>
+
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#">About Me</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#"><i data-feather="chevrons-left"></i></a>
+      </div>
+    </nav>
+
+    <hr />
+
+    <!-- Main Content -->
+    <main></main>
+    <main>
+      <!-- Home Page -->
+      <section id="home-page" class="min-h-[500px] text-center content center">
+        <h2 class="text-xl font-bold" id="welcome-speech">
+          Welcome To My Website
+        </h2>
+        <p class="mt-2">
+          This is my personal portfolio website where I showcase my projects and
+          skills.
+        </p>
+      </section>
+
+      <!-- About Me -->
+      <section id="about-me" class="min-h-[500px] text-center content center">
+        <h2 class="text-xl font-bold">About Me</h2>
+        <p class="mt-2">
+          Hello! I'm Michelle Angelica, a passionate accountant with handling
+          client's tax returns and daily record keeping.
+        </p>
+      </section>
+
+      <!-- Portfolio -->
+      <section id="portfolio" class="min-h-[500px] text-center content center">
+        <h2 class="text-xl font-bold">Portfolio</h2>
+        <p class="mt-2">
+          Take a look at my diverse range of projects that showcase my skills
+          and expertise.
+        </p>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="min-h-[500px] text-center content center">
+        <h2 class="text-xl font-bold">Contact</h2>
+        <p class="mt-2">Feel free to reach out to me!</p>
+        <form>
+          <div class="mb-4">
+            <label class="block mb-2" for="name">Name:</label>
+            <input
+              class="w-full p-2 border rounded"
+              type="text"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block mb-2" for="email">Email:</label>
+            <input
+              class="w-full p-2 border rounded"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-4">
+            <label class="block mb-2" for="message">Message:</label>
+            <textarea
+              class="w-full p-2 border rounded"
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button
+            class="px-4 py-2 bg-blue-500 text-white rounded"
+            type="button"
+          >
+            Send Message
+          </button>
+        </form>
+
+        <a
+          href="https://www.linkedin.com/in/michelle-angelica-967663365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          ><i data-feather="linkedin"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/anglcaaa._?igsh=MmpjZGVhMjJ4YWU5&utm_source=qr"
+          ><i data-feather="instagram"></i
+        ></a>
+        <a href="#"><i data-feather="mail"></i></a>
+      </section>
+    </main>
+
+    <!-- Footer Content -->
+    <footer></footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
