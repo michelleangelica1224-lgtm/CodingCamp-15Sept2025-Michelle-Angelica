@@ -30,14 +30,14 @@
       <div class="logo"></div>
 
       <div class="navbar-nav">
-        <a href="#">Home</a>
-        <a href="#">About Me</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#"><i data-feather="chevrons-left"></i></a>
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
 
@@ -47,98 +47,100 @@
     <main></main>
     <main>
       <!-- Home Page -->
-      <section id="home-page" class="min-h-[500px] text-center content center">
-        <h2 class="text-xl font-bold" id="welcome-speech">
-          Welcome To My Website
-        </h2>
-        <p class="mt-2">
-          This is my personal portfolio website where I showcase my projects and
-          skills.
-        </p>
+      <section class="home" id="home">
+        <main class="content">  
+          <h1> <div class="name">Hi Michelle,</div> Welcome To My Portfolio</h1>
+          <p>This is my personal portfolio website where I showcase my projects and skills.</p>
+          <a href="#about" class="cta">Get To Know Me!</a>
+        </main>
       </section>
 
       <!-- About Me -->
-      <section id="about-me" class="min-h-[500px] text-center content center">
-        <h2 class="text-xl font-bold">About Me</h2>
-        <p class="mt-2">
-          Hello! I'm Michelle Angelica, a passionate accountant with handling
-          client's tax returns and daily record keeping.
-        </p>
+      <section id="about" class="about">
+
+        <div class="row">
+
+          <div class="content">
+            <h3>I'm Michelle Angelica</h3>
+            
+            <p>
+              I am a motivated undergraduate student with a strong interest in building a professional career in accounting and finance. I have developed a solid foundation in accounting principles, financial reporting, and basic analysis through my academic experience, supported by strong analytical, organizational, and problem-solving skills. I am familiar with structured financial processes, data-driven reporting, and the use of integrated systems to support accurate recording, reconciliation, and evaluation of financial information. This exposure has strengthened my understanding of internal controls, compliance, and the importance of precision and consistency in financial work.
+            </p>
+            <p>
+              In addition, I am highly detail-oriented, adaptable, and eager to continuously learn in a dynamic professional environment. I am comfortable working with numbers, interpreting financial data, and translating insights into clear and meaningful information to support decision-making. With a strong sense of responsibility and a proactive mindset, I am committed to contributing positively to teams and organizations while continuing to develop my technical knowledge and professional competencies as an aspiring accounting professional.
+            </p>
+        </div>
       </section>
 
-      <!-- Portfolio -->
-      <section id="portfolio" class="min-h-[500px] text-center content center">
-        <h2 class="text-xl font-bold">Portfolio</h2>
-        <p class="mt-2">
-          Take a look at my diverse range of projects that showcase my skills
-          and expertise.
-        </p>
-      </section>
+      <!-- Skills -->
+       <section id="skills" class="skills">
+
+        <div class="skills-box">
+
+          <div class="skills-content">
+            <h3>My Skills and Expertise</h3>
+            <p>As an undergraduate, I possess a solid foundation in accounting principles supported by strong analytical and organizational skills. I am familiar with integrated business processes and data-driven reporting through enterprise resource planning systems, enabling me to support accurate financial recording, reconciliation, and analysis. My exposure to structured workflows has strengthened my understanding of internal controls, compliance, and efficient transaction processing. In addition, I am detail-oriented, adaptable to new systems and technologies, and capable of translating financial data into meaningful insights, positioning me well to contribute effectively in an entry-level accounting role.</p>
+            <p>I have strong expertise in operating Accurate Desktop and Microsoft Excel to support efficient and reliable accounting processes. I am familiar with using Accurate Desktop for recording transactions, managing ledgers, preparing journals, and generating financial reports in a systematic and compliant manner. This experience has strengthened my understanding of end-to-end accounting workflows, data accuracy, and internal control procedures. In parallel, I utilize Microsoft Excel to organize, analyze, and reconcile financial data using formulas, functions, pivot tables, and structured worksheets to ensure consistency and precision.</p>
+            <p>By combining Accurate Desktop with Excel, I am able to verify data accuracy, identify discrepancies, and produce clear financial summaries that support reporting, analysis, and effective decision-making in an accounting environment.</p>
+          </div>
+       </section>
+
+       <!-- Experience -->
+        <section id="experience" class="experience">
+  
+          <div class="experience-box">
+  
+            <div class="experience-content">
+              <h3>My Experience</h3>
+              <p>During my internship at Ignatius Julyani Consulting, I gained practical experience in various accounting tasks, including data entry, transaction recording, and financial report preparation using Accurate Desktop. I assisted in maintaining accurate ledgers, reconciling accounts, and ensuring compliance with internal controls. Besides that, i also have the ability to accurately prepare and record Surat Pemberitahuan (SPT) Tahunan Badan in accordance with applicable tax regulations. I am familiar with compiling and reconciling fiscal and commercial financial data, identifying deductible and non-deductible expenses, and ensuring the completeness of supporting documents required for corporate tax reporting.</p>
+              <p>This hands-on experience enhanced my understanding of accounting principles and workflows in a real-world setting. Additionally, I collaborated with team members to streamline processes and improve data accuracy, further developing my organizational and analytical skills. Overall, my internship provided valuable insights into the accounting profession and strengthened my commitment to pursuing a career in this field.</p>
+            </div>
+          </div>
+        </section>
 
       <!-- Contact -->
-      <section id="contact" class="min-h-[500px] text-center content center">
-        <h2 class="text-xl font-bold">Contact</h2>
-        <p class="mt-2">Feel free to reach out to me!</p>
-        <form>
-          <div class="mb-4">
-            <label class="block mb-2" for="name">Name:</label>
-            <input
-              class="w-full p-2 border rounded"
-              type="text"
-              id="name"
-              name="name"
-              required
-            />
+      <section id="contact" class="contact">
+        <div class="container">
+          <h2>Contact Me</h2>
+          <div class="contact-wrapper">
+            <div class="contact-form">
+              <form>
+                <div class="form-group">
+                  <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                  <textarea name="message" placeholder="Your Messsage"></textarea>
+                </div>
+                <button type="submit">Send Your Message!</button>
+              </form>
+            </div>
+            <div>
+              <a href="mailto:michelleangelica1224@gmail.com"><i data-feather="inbox"></i></a>
+              <a href="https://www.instagram.com/anglcaaa._?igsh=MmpjZGVhMjJ4YWU5&utm_source=qr"><i data-feather="instagram"></i></a>
+              <a href="https://www.linkedin.com/in/michelle-angelica-967663365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i data-feather="linkedin"></i></a>
+              <a href="https://1drv.ms/b/c/58c450efce4eec68/IQDryPpSHR6TToauEJ3OHtYwAey0SSRCSg-NMn9yr7jNAy0?e=bABVzM" target="_blank"><i data-feather="info"></i></a>
+            </div>
           </div>
-          <div class="mb-4">
-            <label class="block mb-2" for="email">Email:</label>
-            <input
-              class="w-full p-2 border rounded"
-              type="email"
-              id="email"
-              name="email"
-              required
-            />
-          </div>
-          <div class="mb-4">
-            <label class="block mb-2" for="message">Message:</label>
-            <textarea
-              class="w-full p-2 border rounded"
-              id="message"
-              name="message"
-              rows="5"
-              required
-            ></textarea>
-          </div>
-          <button
-            class="px-4 py-2 bg-blue-500 text-white rounded"
-            type="button"
-          >
-            Send Message
-          </button>
-        </form>
-
-        <a
-          href="https://www.linkedin.com/in/michelle-angelica-967663365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-          ><i data-feather="linkedin"></i
-        ></a>
-        <a
-          href="https://www.instagram.com/anglcaaa._?igsh=MmpjZGVhMjJ4YWU5&utm_source=qr"
-          ><i data-feather="instagram"></i
-        ></a>
-        <a href="#"><i data-feather="mail"></i></a>
+        </div>
       </section>
-    </main>
 
+      
     <!-- Footer Content -->
-    <footer></footer>
-
-    <!-- JavaScript -->
-    <script src="js/script.js"></script>
+    <footer class="footer">
+      <p>
+        
+      </p>
+    </footer>
 
     <!-- Feather Icons -->
     <script>
       feather.replace();
     </script>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
   </body>
 </html>
