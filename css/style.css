@@ -223,21 +223,20 @@ body {
 
 /* Contact Me */
 .contact {
-  min-height: 100vh;
-  background-color: #2b0505;
+  min-height: 85vh;
+  background-color: #f2e9e9;
   padding: 8rem 7% 1.4rem;
-  text-align: center;
 }
 
 .contact .container {
-  max-width: 800px;
+  max-width: 1040px;
   margin: 0 auto;
 }
 
 .contact .container h2 {
   font-size: 1.9rem;
   margin-bottom: 1rem;
-  color: #e3b6b6;
+  color: #2b1d1d;
   font-weight: 600;
   margin-top: 0.1rem;
 }
@@ -279,6 +278,14 @@ textarea:focus {
   color: #311010;
   border: none;
   cursor: pointer;
+}
+
+.contact .container .contact-wrapper .contact-info a {
+  color: #2b0505;
+}
+
+.footer p {
+  color: #311010;
 }
 
 /* Media Queries */
